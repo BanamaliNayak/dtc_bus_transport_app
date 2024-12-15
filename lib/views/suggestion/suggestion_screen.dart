@@ -36,7 +36,7 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
   final TextEditingController _searchController = TextEditingController();
 
   void makeSuggestion(String input) async {
-    String googlePlacesApiKey = 'AIzaSyA7MU4OHu9HKJ5h5bvTiuhaVHiXJ85mFYc';
+    String googlePlacesApiKey = '';
     String autocompleteURL = 'https://maps.googleapis.com/maps/api/place/autocomplete/json';
 
     // Coordinates for New Delhi
