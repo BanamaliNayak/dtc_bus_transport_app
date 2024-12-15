@@ -62,7 +62,7 @@ class _SuggestionScreenState extends State<SuggestionScreen> {
 
 
   Future<void> fetchPlaceDetails(String placeId) async {
-    String googlePlacesApiKey = 'AIzaSyA7MU4OHu9HKJ5h5bvTiuhaVHiXJ85mFYc';
+    String googlePlacesApiKey = '';
     String placeDetailsURL = 'https://maps.googleapis.com/maps/api/place/details/json';
 
     String request = '$placeDetailsURL?place_id=$placeId&key=$googlePlacesApiKey';
